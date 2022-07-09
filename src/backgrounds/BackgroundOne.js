@@ -7,6 +7,8 @@ const styles = {
         // -moz-background-size: 'cover',
         // -o-background-size: 'cover',
         backgroundSize: 'cover',
+        height: '100%'
+
     }
 }
 

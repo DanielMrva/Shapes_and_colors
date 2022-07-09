@@ -1,4 +1,4 @@
-/* html { 
+html { 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,7 +10,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-} */
+  height: 100%;
+  min-Height: 100%;
+}
 
 /* default React App CSS below */
 
