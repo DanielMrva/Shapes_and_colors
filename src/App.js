@@ -4,7 +4,7 @@ import BackgroundOne from "./backgrounds/BackgroundOne"
 
 function App() {
   return (
-    <div className="Main">
+    <div className="main parent">
       <BackgroundOne>
         
       </BackgroundOne>
