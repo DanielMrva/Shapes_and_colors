@@ -15,6 +15,9 @@ Re-Create backgrounds consisiting of translucency based gradients much like dode
 
 Modify LG's programatically via props
 
-Integrate cursor tracking to modify linear gradients
+Integrate cursor tracking to modify linear gradients:
 
+https://bobbyhadz.com/blog/react-get-mouse-position
+
+https://www.joshwcomeau.com/snippets/react-hooks/use-mouse-position/
 

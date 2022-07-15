@@ -1,8 +1,18 @@
 import React from "react";
 
+/**
+ * From here we have a few things to do:
+ * 
+ *  1) take advantage of template literals to modify our values in the linear gradient.  Do I modify these through props?
+ *  2) build in a spread of attributes/props to have customizable gradients.  How many values do I allow? How to modify the values
+ *  3) Work in cursor tracking?
+ * 
+ */
+
+
 const styles = {
     gradient: {
-        background: 
+        background:
         `
         linear-gradient(65deg, rgba(63,135,166,.75) 10%, rgba(235,248,225,.5) 10% 35%, rgba(246,157,60,.5) 35% 75%, rgba(133,20,199,.5) 75% 100%),
 
@@ -18,30 +28,24 @@ const styles = {
        
         `
         ,
-        // background: 'linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%)',
-        // -webkit-background-size: 'cover',
-        // -moz-background-size: 'cover',
-        // -o-background-size: 'cover',
         backgroundSize: 'cover',
         height: '100vh',
         width: '100%',
         zIndex: 0
     },
-    gradient2: {
-        background: 'linear-gradient(65deg, rgba(63,135,166,.5) 33% , rgba(235,248,225,.5) 33% 66%, rgba(246,157,60,.5) 66% 100%)',
-        backgroundSize: 'cover',
-        height: '100vh',
-        width: '100%',
-        zIndex: 1
-    }
+    // gradient2: {
+    //     background: 'linear-gradient(65deg, rgba(63,135,166,.5) 33% , rgba(235,248,225,.5) 33% 66%, rgba(246,157,60,.5) 66% 100%)',
+    //     backgroundSize: 'cover',
+    //     height: '100vh',
+    //     width: '100%',
+    //     zIndex: 1
+    // }
 }
 
 const BackgroundOne = () => {
     return (
         <>
-            {/* <div className="background-one background-cover child" style={styles.gradient2}>
-                <h1>This is bg2</h1>
-            </div> */}
+
             <div className="background-one background-cover child" style={styles.gradient}>
                 <h1>This is bg1</h1>
             </div>
